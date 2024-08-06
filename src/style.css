@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../assets/font/Oswald-Light.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #71dcc5;
+}
+
+.form-informtion {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.form-login {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: rgb(54, 53, 53);
+  margin: 100px auto;
+  position: relative;
+}
+
+.img-user {
+  width: 25px;
+  position: relative;
+  left: 40px;
+  top: 7px;
+}
+
+.form-name {
+  width: 340px;
+  padding: 15px 50px;
+  background-color: #7d7c7c;
+  color: #000000;
+  border-radius: 5px;
+  font-family: Verdana;
+  border: 2px solid #bcc0be;
+  margin-right: 20px;
+}
+
+.form-password {
+  margin-top: 15px;
+}
+
+.form-title {
+  font-family: Oswald;
+  color: #dcdfde;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.circle {
+  background-color: #ff0059d4;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.text-circle {
+  color: #ffffffdf;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 18px;
+  letter-spacing: 9px;
+  font-weight: 600;
+}
+
+.test {
+  position: relative;
+  top: 42px;
+  left: 335px;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 225px;
+  border-radius: 0 250px 250px 0;
+  background-color: rgba(0, 0, 0, 0.207);
+}
